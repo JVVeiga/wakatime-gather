@@ -3,7 +3,8 @@
     "version": "1.0.0",
     "main": "run.js",
     "scripts": {
-        "start": "npx ts-node src/run.ts"
+        "start": "npx ts-node src/run.ts",
+        "build": "npx tsc"
     },
     "keywords": [],
     "author": "",
@@ -16,6 +17,7 @@
         "ws": "^8.18.1"
     },
     "devDependencies": {
-        "@types/ws": "^8.18.0"
+        "@types/ws": "^8.18.0",
+        "typescript": "^5.8.3"
     }
 }
