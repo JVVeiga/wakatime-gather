@@ -1,0 +1,21 @@
+{
+    "name": "wakatime-gather",
+    "version": "1.0.0",
+    "main": "run.js",
+    "scripts": {
+        "start": "npx ts-node src/run.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "@gathertown/gather-game-client": "^43.0.1",
+        "dotenv": "^16.4.7",
+        "mysql2": "^3.14.0",
+        "ws": "^8.18.1"
+    },
+    "devDependencies": {
+        "@types/ws": "^8.18.0"
+    }
+}
