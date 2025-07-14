@@ -87,6 +87,7 @@ async function executeHeartbeats() {
             headers: {
                 'Content-Type': 'application/json',
                 'X-Machine-Name': 'Gather',
+                'User-Agent': 'gather-client/1.0.0 (Macintosh; Intel Mac OS X 10_15_7)',
             },
             body: JSON.stringify(heartbeats),
         });
